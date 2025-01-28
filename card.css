@@ -1,0 +1,92 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "figtree", serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  margin: 252px auto;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 5px 0px rgb(5, 0, 0);
+  border: 1px solid black;
+}
+
+.img1 img {
+  width: 336px;
+  height: 203px;
+  margin: 20px auto;
+  margin-left: 25px;
+  border-radius: 15px;
+}
+
+.Sec-part {
+  align-items: center;
+  margin-left: 22px;
+}
+
+.Sec-part button {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.fade {
+  opacity: 0.5;
+}
+
+.Sec-2 img {
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+span {
+  font-weight: 800;
+  margin-left: 10px;
+}
+
+button {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 375px;
+    height: 812px;
+    /* font-size: 16px; */
+  }
+
+  .container {
+    /* display: grid; */
+    width: 327px;
+    height: 501px;
+    /* position: relative; */
+  }
+
+  .img1 img {
+    width: 279px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 12px;
+  }
+
+  .Sec-part {
+    width: 279px;
+    height: 173px;
+  }
+
+  h1 {
+    width: 279px;
+    height: 30px;
+  }
+
+  .fade {
+    font-size: 14px;
+  }
+}
